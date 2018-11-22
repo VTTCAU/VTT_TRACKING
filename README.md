@@ -19,6 +19,7 @@ current code borrows heavily from Image-Text-Embedding. The images were taken fr
 ### Todos
 
  - Write MORE example 
+ - Currently uploading in progress
  
 License
 ----
