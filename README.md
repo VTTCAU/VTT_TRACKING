@@ -12,6 +12,7 @@ current code borrows heavily from Image-Text-Embedding. The images were taken fr
 - Pytorch 0.4 + Python 3.6
 
 
+
 # Preprocess Datasets
 1. Download GoogleNews
 2. Download CUHK-PEDES
