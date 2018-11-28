@@ -13,8 +13,8 @@ current code borrows heavily from Image-Text-Embedding. The images were taken fr
 
 
 # Preprocess Datasets
-1. Download [GoogleNews](GoogleNews-vectors-negative300.bin.gz](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit)
-2. Download CUHK-PEDES
+1. Download [GoogleNews](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit)
+2. Download [CUHK-PEDES](https://github.com/layumi/Image-Text-Embedding/tree/master/dataset/CUHK-PEDES-prepare)
 3. Pre-trained model (currently uploading in progress)
 
 
