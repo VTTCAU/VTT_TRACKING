@@ -8,7 +8,7 @@ current code borrows heavily from Image-Text-Embedding. The images were taken fr
 # Prerequisites
 
 - NVIDIA GPU + CUDA + CuDNN
-- Matconvnet + Matlab 2017x
+- Matconvnet (Unzip matlab) + Matlab 2017b
 - Pytorch 0.4 + Python 3.6
 
 
