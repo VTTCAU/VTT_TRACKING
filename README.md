@@ -12,7 +12,6 @@ current code borrows heavily from Image-Text-Embedding. The images were taken fr
 - Pytorch 0.4 + Python 3.6
 
 
-
 # Preprocess Datasets
 1. Download GoogleNews
 2. Download CUHK-PEDES
@@ -24,9 +23,11 @@ current code borrows heavily from Image-Text-Embedding. The images were taken fr
  - Write MORE example 
  - Currently uploading in progress
  
+ 
 # Acknowledgements
 
 This work was supported by Institute for Information & communications Technology Promotion(IITP) grant funded by the Korea government(MSIT) (2017-0-01780, The technology development for event recognition/relational reasoning and learning knowledge based system for video understanding)
+
 
 License
 ----
