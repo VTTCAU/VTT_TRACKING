@@ -30,7 +30,7 @@ current code borrows heavily from Image-Text-Embedding. The images were taken fr
 # Useage
 
 - Visual Tracking
- 1. run MOT_reid
+ 1. run /MOR_Re-Id/MOT_reid.py
  
 # Output
 tracker_results.json has tracking coordinates
@@ -61,7 +61,6 @@ coordinates information is as follows
 # Acknowledgements
 
 This work was supported by Institute for Information & communications Technology Promotion(IITP) grant funded by the Korea government(MSIT) (2017-0-01780, The technology development for event recognition/relational reasoning and learning knowledge based system for video understanding)
-
 
 License
 ----
