@@ -30,12 +30,14 @@ current code borrows heavily from Image-Text-Embedding. The images were taken fr
 
 - Visual Tracking
 dataset structre: 
+```
 /MOT_Re-Id/Friends
 		└ ep1
-		└ gallery
-		└ 0001 (frame), 0002, 0003, ....
-		└ data
-		└ 0001.png, 0002.png, ... (detection results)
+		  └ gallery
+		    └ 0001 (frame), 0002, 0003, ....
+		      └ data
+		        └ 0001.png, 0002.png, ... (detection results)
+```
 
 run /MOR_Re-Id/MOT_reid.py
  
