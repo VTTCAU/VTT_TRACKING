@@ -22,7 +22,7 @@ current code borrows heavily from Image-Text-Embedding. The images were taken fr
 # Preprocess Datasets
 
 - For Visual Tracking
- 1. Unzip friends2.zip and /MOT_Re-Id/Friends.zip
+ 1. Unzip friends2.zip and after [download](https://drive.google.com/open?id=1AZMyo5rwsS_KECYAEckJ5bE3Q64eKrYR) unzip into /MOT_Re-Id/
  2. Download pre-trained model [Download](https://drive.google.com/open?id=1gD2-8vfV-DzdgyKBktW1CNQYM4ayeFtp)
  3. Locate the pre-trained model into /MOT_Re-Id/model/ft_resNet50/
  
