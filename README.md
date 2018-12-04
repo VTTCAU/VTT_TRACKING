@@ -4,7 +4,11 @@
 
 # VTT_TRACKING
 
-This repository mainly use Image-Text-Embedding method and Person ReID baseline.
+This repository is for VTT tracking research results.
+Even if a scene change occurs in the video, it gives the same ID.
+The configuration is largely based on multi-object tracking using re-id method and the image2text method is a separate module.
+
+We mainly use Image-Text-Embedding method and Person ReID baseline.
 
 current code borrows heavily from Image-Text-Embedding. The images were taken from CUHK PEDES dataset.
 
@@ -20,6 +24,7 @@ current code borrows heavily from Image-Text-Embedding. The images were taken fr
 - For Visual Tracking
  1. Unzip friends2.zip and /MOT_Re-Id/Friends.zip
  2. Download pre-trained model [Download](https://drive.google.com/open?id=1gD2-8vfV-DzdgyKBktW1CNQYM4ayeFtp)
+ 3. Locate the pre-trained model into /MOT_Re-Id/model/ft_resNet50/
  
 - For Image2Text
  1. Download [GoogleNews](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit)
