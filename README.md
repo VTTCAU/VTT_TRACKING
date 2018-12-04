@@ -29,6 +29,7 @@ current code borrows heavily from Image-Text-Embedding. The images were taken fr
 # Useage
 
 - Visual Tracking
+
 dataset structre: 
 ```
 /MOT_Re-Id/Friends
@@ -42,6 +43,7 @@ dataset structre:
 run /MOR_Re-Id/MOT_reid.py
  
 - Image2Text
+
 run src/find_pic_feature_word2_plus
 
 # Output
