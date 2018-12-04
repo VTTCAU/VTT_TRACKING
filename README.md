@@ -17,34 +17,39 @@ current code borrows heavily from Image-Text-Embedding. The images were taken fr
 
 # Preprocess Datasets
 
+- For Visual Tracking
+ 1. Unzip friends2.zip and /MOT_Re-Id/Friends.zip
+ 2. Download pre-trained model [Download](https://drive.google.com/open?id=1gD2-8vfV-DzdgyKBktW1CNQYM4ayeFtp)
+ 
 - For Image2Text
  1. Download [GoogleNews](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit)
  2. Download [CUHK-PEDES](https://github.com/layumi/Image-Text-Embedding/tree/master/dataset/CUHK-PEDES-prepare)
  3. Pre-trained model (currently uploading in progress)
 
-- For Visual Tracking
- 1. Unzip friends2.zip and /MOT_Re-Id/Friends.zip
- 2. Download pre-trained model [Download](https://drive.google.com/open?id=1gD2-8vfV-DzdgyKBktW1CNQYM4ayeFtp)
-
 # Useage
 
 - Visual Tracking
-dataset structre: /MOT_Re-Id/Friends
-			     └ ep1
-			        └ gallery
-			          └ 0001 (frame), 0002, 0003, ....
-			             └ data
-				        └ 0001.png, 0002.png, ... (detection results)
+dataset structre: 
+/MOT_Re-Id/Friends
+		└ ep1
+		└ gallery
+		└ 0001 (frame), 0002, 0003, ....
+		└ data
+		└ 0001.png, 0002.png, ... (detection results)
 
 run /MOR_Re-Id/MOT_reid.py
  
-# Output
-tracker_results.json has tracking coordinates
+- Image2Text
+run src/find_pic_feature_word2_plus
 
-coordinates information is as follows
+# Output
+tracker_results.json has tracking coordinates.
+
+coordinates information is as follows.
 
 "coordinates" : x1, y1, x2, y2, id_number
 
+```
 {
 	"dataset": "Friends_EP1",
 	"coordinates": [
@@ -57,6 +62,7 @@ coordinates information is as follows
 		[
   ...
 }
+```
 
 ### Todos
 
