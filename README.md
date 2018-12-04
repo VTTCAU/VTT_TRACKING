@@ -24,13 +24,19 @@ current code borrows heavily from Image-Text-Embedding. The images were taken fr
 
 - For Visual Tracking
  1. Unzip friends2.zip and /MOT_Re-Id/Friends.zip
- 2. Download pre-trained model
- 
+ 2. Download pre-trained model [Download](https://drive.google.com/open?id=1gD2-8vfV-DzdgyKBktW1CNQYM4ayeFtp)
 
 # Useage
 
 - Visual Tracking
- 1. run /MOR_Re-Id/MOT_reid.py
+dataset structre: /MOT_Re-Id/Friends
+			     └ ep1
+			        └ gallery
+			          └ 0001 (frame), 0002, 0003, ....
+			             └ data
+				        └ 0001.png, 0002.png, ... (detection results)
+
+run /MOR_Re-Id/MOT_reid.py
  
 # Output
 tracker_results.json has tracking coordinates
