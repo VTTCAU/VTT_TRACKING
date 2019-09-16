@@ -16,7 +16,7 @@ current code borrows heavily from Image-Text-Embedding. The images were taken fr
 
 - NVIDIA GPU + CUDA + CuDNN
 - Matconvnet (Unzip matlab) + Matlab 2017b
-- Pytorch 0.4 + Python 3.6
+- Pytorch 1.0 + Python 3.6
 - Install requirements
 
 # Preprocess Datasets
@@ -25,7 +25,7 @@ current code borrows heavily from Image-Text-Embedding. The images were taken fr
  1. Unzip friends2.zip and after [download](https://drive.google.com/open?id=1AZMyo5rwsS_KECYAEckJ5bE3Q64eKrYR) unzip into /MOT_Re-Id/
  2. Download pre-trained model [Download](https://drive.google.com/open?id=1gD2-8vfV-DzdgyKBktW1CNQYM4ayeFtp)
  3. Locate the pre-trained model into /MOT_Re-Id/model/ft_resNet50/
- 
+
 - For Image2Text
  1. Download [GoogleNews](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit)
  2. Download [CUHK-PEDES](https://github.com/layumi/Image-Text-Embedding/tree/master/dataset/CUHK-PEDES-prepare)
