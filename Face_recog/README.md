@@ -16,3 +16,21 @@ We will update new training code and add Person re-identification for undetected
 3. 
 
 ```
+# Data structure
+```
+Face/
+    imgs/
+		Anna/
+		    file_name.jpg
+		    file_name.jpg
+		    file_name.jpg
+		    ...
+		Deogi/
+		    file_name.jpg
+		    file_name.jpg
+		    file_name.jpg
+		    ...
+		
+		...
+
+```
