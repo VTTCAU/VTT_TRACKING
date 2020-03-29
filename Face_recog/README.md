@@ -5,14 +5,14 @@ The code is based on [ArcFace-pytorch](https://github.com/TreB1eN/InsightFace_Py
 This repository is not completed.
 We will update new training code and add Person re-identification for undetected face.
 
-<img src="https://user-images.githubusercontent.com/37200420/77849986-86800e00-720a-11ea-82e7-59111a8963f4.JPG" width="300" height="300">
-<img src="https://user-images.githubusercontent.com/37200420/77849994-8e3fb280-720a-11ea-9dde-c18e51001996.JPG" width="300" height="300">
-<img src="https://user-images.githubusercontent.com/37200420/77849995-90a20c80-720a-11ea-9d64-b567e2b56778.JPG" width="300" height="300">
+<img src="https://user-images.githubusercontent.com/37200420/77849986-86800e00-720a-11ea-82e7-59111a8963f4.JPG">
+<img src="https://user-images.githubusercontent.com/37200420/77849994-8e3fb280-720a-11ea-9dde-c18e51001996.JPG" width="40%">
+<img src="https://user-images.githubusercontent.com/37200420/77849995-90a20c80-720a-11ea-9d64-b567e2b56778.JPG" width="40%">
 
 # How to use
 ```
-1. Make face bank
-2. run face_verify.py to make facebank.pth
+1. Prepare AnotherMissOh dataset -> run prepare_AnotherMissOh.py after set your json and visual data path
+2. run train.py
 3. 
 
 ```
