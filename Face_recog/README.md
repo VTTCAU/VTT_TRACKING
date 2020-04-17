@@ -1,4 +1,4 @@
-# Person identification Face Recognition 
+# Person identification using Face Recognition 
 We mainly use ArcFace: Additive Angular Margin Loss for Deep Face Recognition method.
 The code is based on [ArcFace-pytorch](https://github.com/TreB1eN/InsightFace_Pytorch) implementation.
 
@@ -34,3 +34,7 @@ Face/
 	...
 
 ```
+
+# Person Detection
+
+...
