@@ -1,1 +1,1 @@
-# Yolo Face Detector
+# Yolo Person Detector
