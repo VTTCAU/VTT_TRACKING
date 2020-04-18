@@ -1,8 +1,15 @@
+# Face Recognition
 from config import get_config
 from Learner import face_learner
 import argparse
 
+# Person Detector
+from Yolo_v2_pytorch.train_yolo import get_args as get_fd_args
+from Yolo_v2_pytorch.train_yolo import train as fd_train
+
+
 if __name__ == '__main__':
+    # Face Recognition
     parser = argparse.ArgumentParser(description='for face verification')
     parser.add_argument("-e", "--epochs", help="training epochs", default=20, type=int)
     parser.add_argument("-net", "--net_mode", help="which network, [ir, ir_se, mobilefacenet]",default='ir_se', type=str)
@@ -31,6 +38,13 @@ if __name__ == '__main__':
     learner = face_learner(conf)
     learner.train(conf, args.epochs)
     # ========================================================
+
+    # PERSON DETECTOR
+    # ========================================================
+    fd_args = get_fd_args()
+    fd_train(fd_args)
+    # ========================================================
+
 
     # MAKE YOUR LOADER IN YOUR TRAIN CLASS
     # ========================================================
