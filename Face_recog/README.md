@@ -45,6 +45,8 @@ Face/
 ```
 
 # Person Detection
+![entire_2](https://user-images.githubusercontent.com/37200420/80203446-22623580-8662-11ea-884e-bbe50c8dc1b6.png)
+
 We mainly use YOLOv2.
 The code is based on [YOLOv2-pytorch](https://github.com/uvipen/Yolo-v2-pytorch) implementation.
 
