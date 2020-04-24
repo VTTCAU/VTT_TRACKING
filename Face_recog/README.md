@@ -59,7 +59,9 @@ Currently, only 1 episode of AnotherMissOh data was used for learning, but it wi
 
 All episodes have image files and annotated json file.
 
-You could find AnotherMissOh dataset in [this link](https://drive.google.com/open?id=1jcAhHCmq3fyhJ9Ggm9EA1Tf_xT3Roe48)
+You could find AnotherMissOh dataset in [this link](https://drive.google.com/open?id=1jcAhHCmq3fyhJ9Ggm9EA1Tf_xT3Roe48). 
+
+Password is required.
 
 After unzip, you set your data path in 'Yolo_v2_pytorch/src/anotherMissOh_dataset.py' as below
 
