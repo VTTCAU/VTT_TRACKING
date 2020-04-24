@@ -1,3 +1,11 @@
+# Requirements:
+- python 3.5 
+- pytorch 1.4
+- opencv 
+- tensorboard (for Face Recognition -> will be changed to visdom)
+- visdom
+
+
 # Person identification using Face Recognition 
 We mainly use ArcFace: Additive Angular Margin Loss for Deep Face Recognition method.
 The code is based on [ArcFace-pytorch](https://github.com/TreB1eN/InsightFace_Pytorch) implementation.
@@ -9,14 +17,14 @@ We will update new training code and add Person re-identification for undetected
 <img src="https://user-images.githubusercontent.com/37200420/77849994-8e3fb280-720a-11ea-9dde-c18e51001996.JPG" width="40%">
 <img src="https://user-images.githubusercontent.com/37200420/77849995-90a20c80-720a-11ea-9d64-b567e2b56778.JPG" width="40%">
 
-# How to use
+# How to use:
 ```
 1. Prepare AnotherMissOh dataset -> run prepare_AnotherMissOh.py after set your json and visual data path
 2. run train.py
 3. 
 
 ```
-# Data structure
+# Data structure:
 ```
 Face/
     imgs/
