@@ -44,5 +44,33 @@ Face/
 ```
 
 # Person Detection
+We mainly use YOLOv2.
+The code is based on [YOLOv2-pytorch](https://github.com/uvipen/Yolo-v2-pytorch) implementation.
 
-...
+We are constantly training about person detection.
+
+# Dataset:
+We used AnotherMissOh dataset.
+
+Currently, only 1 episode of AnotherMissOh data was used for learning, but it will be added other episodes continuously.
+
+# Data structure:
+The data structure is the same as VOC and AnotherMissOh has the following structure, but we take care of it in the dataloader.
+```
+AnotherMissOh1/
+    001/
+    	0078/
+	     IMAGE_0000004295.jpg
+	     IMAGE_0000004303.jpg
+	     IMAGE_0000004311.jpg
+	     ...
+	0079/
+	     IMAGE_0000004370.jpg
+	     IMAGE_0000004378.jpg
+	     IMAGE_0000004386.jpg
+	     ...
+		
+	...
+    002/
+
+```
