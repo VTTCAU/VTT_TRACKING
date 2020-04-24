@@ -1,7 +1,3 @@
-"""
-Training For Small Object
--> parser에서 data_path와 pre_train_model 경로만 지정해준 후 돌리면 됩니다.
-"""
 import os
 import argparse
 import torch.nn as nn
@@ -27,7 +23,7 @@ def get_args():
     parser.add_argument("--image_size", type=int, default=448, help="The common width and height for all images")
     parser.add_argument("--batch_size", type=int, default=10, help="The number of images per batch")
 
-    # Training 기본 Setting
+    # Training base Setting
     parser.add_argument("--momentum", type=float, default=0.9)
     parser.add_argument("--decay", type=float, default=0.0005)
     parser.add_argument("--dropout", type=float, default=0.5)
@@ -43,16 +39,17 @@ def get_args():
     parser.add_argument("--es_patience", type=int, default=0,
                         help="Early stopping's parameter: number of epochs with no improvement after which training will be stopped. Set to 0 to disable this technique.")
 
-    # 확인해야 하는 PATH
-    parser.add_argument("--pre_trained_model_type", type=str, choices=["model", "params"], default="model")
-    parser.add_argument("--pre_trained_model_path", type=str, default="Yolo_v2_pytorch/trained_models/only_params_trained_yolo_voc") # Pre-training 된 모델 경로
 
-    parser.add_argument("--saved_path", type=str, default="checkpoint") # training 된 모델 저장 경로
+    parser.add_argument("--pre_trained_model_type", type=str, choices=["model", "params"], default="model")
+    parser.add_argument("--pre_trained_model_path", type=str, default="Yolo_v2_pytorch/trained_models/only_params_trained_yolo_voc") # Pre-training path
+
+    parser.add_argument("--saved_path", type=str, default="checkpoint") # saved training path
     parser.add_argument("--conf_threshold", type=float, default=0.35)
     parser.add_argument("--nms_threshold", type=float, default=0.5)
     args = parser.parse_args()
     return args
 
+# not use this classes
 CLASSES = ['aeroplane', 'bicycle', 'bird', 'boat', 'bottle', 'bus', 'car', 'cat', 'chair', 'cow',
            'diningtable', 'dog', 'horse', 'motorbike', 'person', 'pottedplant', 'sheep', 'sofa', 'train',
            'tvmonitor']

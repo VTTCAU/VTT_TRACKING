@@ -42,7 +42,9 @@ class YoloD(nn.Module):
 
         self.stage3_conv1 = pre_model.stage3_conv1
 
-        self.stage3_conv2 = nn.Conv2d(1024, len(self.anchors) * (5 + num_classes), 1, 1, 0, bias=True)
+        # self.stage3_conv2 = nn.Conv2d(1024, len(self.anchors) * (5 + num_classes), 1, 1, 0, bias=True)
+        self.stage3_conv_my = nn.Conv2d(1024, len(self.anchors) * (5 + num_classes), 1, 1, 0, bias=False)
+
 
     def forward(self, input):
         output = self.stage1_conv1(input)
@@ -78,6 +80,7 @@ class YoloD(nn.Module):
 
         output = torch.cat((output_1, output_2), 1)
         output = self.stage3_conv1(output)
-        output = self.stage3_conv2(output)
+        # output = self.stage3_conv2(output)
+        output = self.stage3_conv_my(output)
 
         return output

@@ -18,7 +18,7 @@ def get_args():
     parser.add_argument("--nms_threshold", type=float, default=0.5)
     parser.add_argument("--pre_trained_model_type", type=str, choices=["model", "params"], default="model")
     parser.add_argument("--pre_trained_model_path", type=str, default="trained_models/anotherMissOh.pth")
-    parser.add_argument("--data_path_test", type=str, default="missoh_test/", help="the root folder of dataset") #Doftech VOCdevkit
+    parser.add_argument("--data_path_test", type=str, default="missoh_test/", help="the root folder of dataset")
     args = parser.parse_args()
     return args
 
