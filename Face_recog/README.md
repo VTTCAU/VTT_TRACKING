@@ -58,19 +58,22 @@ Currently, only 1 episode of AnotherMissOh data was used for learning, but it wi
 The data structure is the same as VOC and AnotherMissOh has the following structure, but we take care of it in the dataloader.
 ```
 AnotherMissOh1/
-    001/
-    	0078/
-	     IMAGE_0000004295.jpg
-	     IMAGE_0000004303.jpg
-	     IMAGE_0000004311.jpg
-	     ...
-	0079/
-	     IMAGE_0000004370.jpg
-	     IMAGE_0000004378.jpg
-	     IMAGE_0000004386.jpg
-	     ...
-		
-	...
-    002/
+	AnotherMissOh1_visual.json
+	
+	AnotherMissOh1/
+	    001/
+		0078/
+		     IMAGE_0000004295.jpg
+		     IMAGE_0000004303.jpg
+		     IMAGE_0000004311.jpg
+		     ...
+		0079/
+		     IMAGE_0000004370.jpg
+		     IMAGE_0000004378.jpg
+		     IMAGE_0000004386.jpg
+		     ...
+
+		...
+	    002/
 
 ```
