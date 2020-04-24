@@ -100,10 +100,16 @@ You could find all trained models in [this link](https://drive.google.com/drive/
 
 And make 'pre_model' folder and put the models.
 
-# How to use:
+# Train:
 ```
 1. Set your path of dataset
 2. run train_main.py
 3. 
+
+```
+
+# Demo:
+```
+1. run test_missoh_all_images.py
 
 ```
