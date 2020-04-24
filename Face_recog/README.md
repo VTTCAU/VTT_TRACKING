@@ -24,6 +24,7 @@ We will update new training code and add Person re-identification for undetected
 3. 
 
 ```
+
 # Data structure:
 ```
 Face/
@@ -54,8 +55,21 @@ We used AnotherMissOh dataset.
 
 Currently, only 1 episode of AnotherMissOh data was used for learning, but it will be added other episodes continuously.
 
+All episodes have image files and annotated json file.
+
+You could find AnotherMissOh dataset in [this link](https://drive.google.com/open?id=1jcAhHCmq3fyhJ9Ggm9EA1Tf_xT3Roe48)
+
+After unzip, you set your data path in 'Yolo_v2_pytorch/src/anotherMissOh_dataset.py' as below
+
+```
+img_path = 'D:\PROPOSAL\VTT\data\AnotherMissOh\AnotherMissOh_images\AnotherMissOh01/'
+json_dir = 'D:\PROPOSAL\VTT\data\AnotherMissOh\AnotherMissOh_Visual/AnotherMissOh01_visual.json'
+```
+
 # Data structure:
 The data structure is the same as VOC and AnotherMissOh has the following structure, but we take care of it in the dataloader.
+
+
 ```
 AnotherMissOh1/
 	AnotherMissOh1_visual.json
@@ -75,5 +89,17 @@ AnotherMissOh1/
 
 		...
 	    002/
+
+```
+# Trained models
+You could find all trained models in [this link](https://drive.google.com/drive/folders/1LvDpPkkZ_18Zhf70rXUDaLoGFp2x6M5G)
+
+And make 'pre_model' folder and put the models.
+
+# How to use:
+```
+1. Set your path of dataset
+2. run train_main.py
+3. 
 
 ```
