@@ -118,5 +118,5 @@ And make 'pre_model' folder and put the models.
 ```
 1. Visualization bbox for person detection
 2. return bbox
-3. 
+3. Change some functions to latest pytorch function
 ```
