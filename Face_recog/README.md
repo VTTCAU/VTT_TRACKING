@@ -113,3 +113,10 @@ And make 'pre_model' folder and put the models.
 1. run test_missoh_all_images.py
 
 ```
+
+# To Do List:
+```
+1. Visualization bbox for person detection
+2. return bbox
+3. 
+```
