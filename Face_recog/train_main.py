@@ -4,8 +4,8 @@ from Learner import face_learner
 import argparse
 
 # Person Detector
-from Yolo_v2_pytorch.train_yolo import get_args as get_fd_args
-from Yolo_v2_pytorch.train_yolo import train as fd_train
+from Yolo_v2_pytorch.train_yolo import get_args as get_pd_args
+from Yolo_v2_pytorch.train_yolo import train as pd_train
 
 # TRACKING(FACE RECOGNITION) - not completed
 # ========================================================
@@ -15,8 +15,8 @@ from Yolo_v2_pytorch.train_yolo import train as fd_train
 
 # PERSON DETECTOR
 # ========================================================
-fd_args = get_fd_args()
-fd_train(fd_args)
+pd_args = get_pd_args()
+pd_train(pd_args)
 # ========================================================
 
 # MAKE YOUR LOADER IN YOUR TRAIN CLASS
